@@ -1778,6 +1778,7 @@ body.tt-magic-cursor #magic-cursor {
   line-height: 1.8;
   margin-bottom: 0;
   padding-top: 20px;
+  text-align: justify;
 }
 @media (max-width: 576px) {
   .section-title p {
@@ -36599,7 +36600,12 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   .social {
     display: block;
   }
-  .nav-right {
+}
+@media (max-width: 768px) {
+  .nav-right .right-sidebar-button {
+    display: none;
+  }
+  header.style-4 .nav-right::before {
     display: none;
   }
 }
