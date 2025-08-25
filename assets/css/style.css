@@ -26115,7 +26115,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   font-weight: 600;
   line-height: 1.3;
   letter-spacing: 0.34px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -26412,8 +26412,8 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 }
 @media (max-width: 576px) {
   .footer-section2 .footer-bottom-area .social-list li {
-    min-width: 110px;
-    max-width: 110px;
+    min-width: 100px;
+    max-width: 100px;
     display: flex;
     justify-content: center;
   }
